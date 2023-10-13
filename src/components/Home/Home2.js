@@ -36,7 +36,7 @@ function Home2() {
               <br />
               <br />
               Sempre que possível, Eu aplico minha paixão desenvolvendo produtos
-              com <b className="purple">Node.js</b> e
+              com <b className="purple">SpringBoot</b> e
               toda a sua stack
               &nbsp;como
               <i>
