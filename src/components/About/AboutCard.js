@@ -8,33 +8,33 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br /> I am a final year student pursuing an Integrated MSc (IMSc)
-            in Maths and Computing at BIT Mesra.
+            Ola pessoal, eu sou <span className="purple">Igor Castro </span>
+            do <span className="purple"> Rio de Janeiro, Brasil.</span>
+            <br /> Eu sou estudante no último ano na graduação de sistemas de  
+            informação na faculdade federal fluminense(UFF).
             <br />
-            Additionally, I am currently employed as a software developer at
-            Juspay.
+            Além disso, já tive participação em empresas na parte de desenvolvimento de sistemas como a 
+            3CON Consultoria e Sistemas e a Petros - Fundação Petrobras de Seguridade Social.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Além da codificação, algumas outras atividades que adoro fazer!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Jogar Video Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Estudar
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Viajar
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Esforce-se para construir coisas que façam a diferença!"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Igor Castro</footer>
         </blockquote>
       </Card.Body>
     </Card>
