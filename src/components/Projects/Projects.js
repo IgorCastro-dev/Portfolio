@@ -32,7 +32,7 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Alunos"
+              title="PaymentApi"
               description="uma api que simula um sistema de pagamento"
               ghLink="https://github.com/IgorCastro-dev/PaymentApi"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
