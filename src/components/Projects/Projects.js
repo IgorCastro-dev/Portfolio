@@ -16,6 +16,7 @@ function Projects() {
           Aqui está alguns dos meus projetos que eu trabalhei recentemente.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
@@ -31,12 +32,24 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Parking-Api"
-              description="uma api de controle de estacionamento"
-              ghLink="https://github.com/IgorCastro-dev/Parking-Api"
+              title="Alunos"
+              description="uma api que simula um sistema de pagamento"
+              ghLink="https://github.com/IgorCastro-dev/PaymentApi"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bitsOfCode}
+              isBlog={false}
+              title="Cursos-Api"
+              description="uma api que simula um sistema de compra de cursos"
+              ghLink="https://github.com/IgorCastro-dev/loginCursos"
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
@@ -47,16 +60,18 @@ function Projects() {
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Cursos-Api"
-              description="uma api de compra de cursos"
-              ghLink="https://github.com/IgorCastro-dev/api-de-compra-de-curso"
+              title="Parking-Api"
+              description="uma api de controle de estacionamento"
+              ghLink="https://github.com/IgorCastro-dev/Parking-Api"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
+
         </Row>
       </Container>
     </Container>
