@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/igor_profissional.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub
@@ -21,27 +21,50 @@ function Home2() {
               <br />
               <br />Tenho alguns projetos desenvolvidos em 
               <i>
-                <b className="purple"> Java. </b>
+                <b className="purple"> Java </b>
               </i>
+              , 
+              <i>
+                <b className="purple"> Typescript </b>
+              </i>
+              , 
+              <i>
+                <b className="purple"> Python </b>
+              </i>
+               dentre outras.
               <br />
               <br />
               Minha área de interesse é construir &nbsp;
               <i>
-                <b className="purple">Apis Rest </b> e
-                tudo relacionado ao {" "}
+                <b className="purple">Apis Rest </b> 
+                e trabalhar com frameworks modernos. 
+                Onde posso aplicar minhas habilidades tanto no{' '} 
+                <b className="purple">
+                  Frontend
+                </b>{' '} 
+                quanto no {' '} 
                 <b className="purple">
                   Backend.
                 </b>
               </i>
               <br />
               <br />
-              Sempre que possível, Eu aplico minha paixão desenvolvendo produtos
-              com <b className="purple">SpringBoot</b> e
-              toda a sua stack
-              &nbsp;como
-              <i>
-                <b className="purple"> SpringData, SpringWeb, SpringSecurity</b>
-              </i>
+              Tenho experiência como desenvolvedor fullstack, em projetos com uso de <i>
+                <b className="purple">Spring Boot</b> e <b className="purple">Angular</b>
+              </i> 
+                . Trabalho com diversas ferramentas e tecnologias, como 
+                <b className="purple"> Intellij</b>, <b className="purple">Eclipse</b>, 
+                <b className="purple">VS Code</b>, <b className="purple">RabbitMQ</b>, 
+                <b className="purple"> JUnit</b>, <b className="purple">Mockito</b>, 
+                <b className="purple"> GitLab</b>, <b className="purple">Azure DevOps</b>, 
+                <b className="purple"> SQL Server</b>, 
+                <b className="purple"> Oracle</b>, <b className="purple">DB2</b>, 
+                <b className="purple"> MySQL</b>, <b className="purple">Redis</b>, 
+                <b className="purple"> Git</b>, <b className="purple">Docker</b>, 
+                <b className="purple"> AWS</b>, além de padrões de
+                 projeto e <b className="purple">TDD</b>. Estou sempre aprendendo e 
+                 aprimorando minhas habilidades para me manter atualizado com as melhores práticas
+                  do mercado.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -69,7 +92,7 @@ function Home2() {
               </li>       
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/igor-castro-93bbb81ba/"
+                  href="https://www.linkedin.com/in/igor-junqueira-castro/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

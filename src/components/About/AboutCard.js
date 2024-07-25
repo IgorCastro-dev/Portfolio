@@ -10,11 +10,11 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Ola pessoal, eu sou <span className="purple">Igor Castro </span>
             do <span className="purple"> Rio de Janeiro, Brasil.</span>
-            <br /> Eu sou estudante no último ano na graduação de sistemas de  
+            <br />Formado em sistemas de  
             informação na Universidade Federal Fluminense(UFF).
             <br />
             Além disso, já tive participação em empresas na parte de desenvolvimento de sistemas como a 
-            3CON Consultoria e Sistemas e a Petros - Fundação Petrobras de Seguridade Social.
+            Nelogica, 3CON Consultoria e Sistemas e a Petros - Fundação Petrobras de Seguridade Social.
             <br />
             <br />
             Além da codificação, algumas outras atividades que adoro fazer!
